@@ -6,7 +6,7 @@ type (
 	Person struct {
 		firstName, lastName string
 		Age                 // embedded/Anonymous field
-		Address             // embedded/Anonymous field
+		Address             // embedded/Anonymous field  ==> filed promotion will applied to only embedded/Anonymous field
 	}
 
 	Age struct {
